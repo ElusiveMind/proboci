@@ -1,0 +1,12 @@
+global-styling:
+  version: 8.x-1.x
+  css:
+    base:
+      css/drupal-module.css: {}
+      css/probo.css: {}
+      css/tabs.css: {}
+accordion:
+  js:
+    js/accordion.js: {}
+  dependencies:
+    - core/jquery

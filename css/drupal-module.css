@@ -1,0 +1,207 @@
+h1.page-title {
+  display: none;
+}
+
+.probo-no-builds {
+  text-align: center !important;
+  padding: 60px 0px !important;
+  background-color: #E0E0E0;
+}
+
+a.copyright-link {
+  color: #7d7d7d;
+}
+
+.table {
+  margin-bottom: 0px;
+}
+
+.details-build-details {
+  margin-bottom: 15px !important;
+}
+
+.inline {
+  display: inline;
+}
+
+.always-on-top {
+  top: 0px;
+  position: fixed;
+}
+
+body.toolbar-horizontal .always-on-top {
+  top: 79px;
+  position: fixed;
+}
+
+.always-on-bottom {
+  bottom: 0px;
+  position: fixed;
+  width: 100%;
+}
+
+body.toolbar-horizontal .always-in-the-middle {
+  margin-bottom: 184px;
+  margin-top: 105px
+}
+
+.always-in-the-middle {
+  margin-bottom: 105px;
+  margin-top: 105px
+}
+
+#content {
+  width: 80%;
+  max-width: 1024px;
+  min-width: 320px;
+  margin: 0px auto;
+  padding-bottom: 200px;
+}
+
+.probo-text-green-darkest {
+  color: #4a986e;
+}
+
+.probo-text-green {
+  color: #9ac36c;
+}
+
+.probo-text-dark {
+  color: #a83028;
+}
+
+.probo-text-blue {
+  color: #3276b6;
+}
+
+.probo-text-soft-peach {
+  color: #efe6eb; 
+}
+
+.probo-text-purple-darkest {
+  color:#33001d;
+}
+
+.probo-purple-darkest {
+  background-color:#33001d;
+}
+
+.highlighted {
+  padding: 10px;
+  margin-bottom: 20px;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.probo-build-details {
+  width: 100%;
+  background-color: #000000;
+  color: #FFFFFF;
+  padding: 0px 15px !important;
+  line-height: 1.1em;
+}
+
+.probo-build-details pre {
+  font-size: 0.8em !important;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  text-align: justify;
+}
+
+.left {
+  float: left;
+}
+
+.right-text {
+  text-align: right !important;
+}
+
+.right {
+  float: right;
+  text-align: right;
+}
+
+.center,
+td.center {
+  text-align: center !important;
+}
+
+.clear {
+  clear: both;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.table-hover tr td.td-repository:hover {
+  background-color: #ebebeb;
+}
+
+.table-hover tr td.td-active-builds:hover {
+  background-color: #ebebeb;
+}
+
+.table-hover tr td.td-archive-error-builds:hover {
+  background-color: #ebebeb;
+}
+
+@media screen and (min-width: 769px){
+  .build-details {
+    display: block;
+  }
+  .build-links {
+    display: none;
+  }
+  p.build-information {
+    font-size: 0.9em;
+    margin: 0px;
+    padding: 0px;
+  }
+  .repository {
+    min-width: 70%;
+    font-size: 0.9em;
+  }
+  .active-builds {
+    font-size: 0.9em;
+    white-space: nowrap;
+  }
+  .archive-error-builds {
+    font-size: 0.9em;
+    white-space: nowrap;
+  }
+}
+
+@media screen and (max-width: 769px){
+  .build-details {
+    display: none;
+  }
+  .build-links {
+    display: block;
+  }
+  p.build-information {
+    font-size: 0.8em;
+    margin: 0px;
+    padding: 0px;
+  }
+  .repository {
+    min-width: 70%;
+    font-size: 0.7em;
+  }
+  .active-builds {
+    font-size: 0.7em;
+    white-space: nowrap;
+  }
+  .archive-error-builds {
+    font-size: 0.7em;
+    white-space: nowrap;
+  }
+}
+
+#probo-build {
+  display: none;
+}

@@ -1,0 +1,5 @@
+# Required to validate default theme settings.
+# + satisfy DefaultConfigTest
+proboci.settings:
+  type: theme_settings
+  label: 'ProboCI settings'

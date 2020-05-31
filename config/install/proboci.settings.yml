@@ -1,0 +1,10 @@
+logo:
+  use_default: true
+  path: ''
+favicon:
+  use_default: true
+  path: ''
+slideshow_display: 1
+show_breadcrumbs: 1
+login_page_headline: 'Open Source Probo Server Login'
+login_page_introduction: 'To access builds on the Proofroom Open Source Probo Server, you must have an assigned account. If you have one, enter your credentials in the fields below. To get an account, please contact your site administrator.'

@@ -1,0 +1,16 @@
+ <div class="login-form login-form__wrapper">
+
+  <span class="h2">{{ login_page_headline }} </span><br />
+  {{ login_page_introduction }}<br /><br />
+  <form{{ attributes }}>
+    <div class="login-form__top">
+      {{ element.name }} {# username element #}
+      {{ element.pass }} {# password element #}
+      {{ element.form_build_id }} {# required #}
+      {{ element.form_id }} {# required #}
+      <div class="login-form__submit">
+        {{ element.actions.submit }}
+      </div>
+    </div>
+  </form>
+</div>
